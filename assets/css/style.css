@@ -26,12 +26,15 @@
 /* ── Base ────────────────────────────────────────────────────── */
 body {
   font-family: 'Poppins', system-ui, -apple-system, sans-serif;
-  background-color: var(--hs-bg);
+  background-color: #f0f4f8;
   color: #2d3748;
   font-size: .9375rem;
   line-height: 1.65;
   min-height: 100vh;
 }
+
+/* Slightly wider max-width for dashboard feel */
+.container-xl { max-width: 1320px; }
 
 /* ── Navbar ──────────────────────────────────────────────────── */
 .navbar-hubspace {

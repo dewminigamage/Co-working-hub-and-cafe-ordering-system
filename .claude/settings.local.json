@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(wmic process where \"ProcessId=17308\" get ExecutablePath 2>&1)"
+    ]
+  }
+}
